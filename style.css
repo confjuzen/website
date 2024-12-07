@@ -1,0 +1,84 @@
+body{
+    font-family: din,sans-serif;
+    background-color: rgb(44, 42, 42);
+    color: bisque;
+    border: 80px solid transparent;
+    margin: 20px bisque;
+}
+@media screen and (max-width: 1200px){
+    body{
+        border: 5px solid;
+        margins: 5px;
+    }
+    .container{
+        display: flex;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+
+h1{
+    font-size: 5em;
+    text-align: right;
+}
+
+h2{
+    font-size: 3em;   
+}
+
+a:hover, a:link:hover, a:visited:hover {
+    color: rgb(44, 42, 42);
+    background-color: bisque;
+}
+
+a:link, a:visited {
+    color: bisque;
+    text-decoration: none;
+}
+
+.border{
+    border: 20px solid bisque;
+}
+
+.box{
+    background-color: rgb(61, 59, 59);
+    color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 70px;
+}
+
+.fullpage {
+}
+
+td{
+    border: 2px solid rgb(44, 42, 42);
+}
+
+th {
+    border: 3px solid pink;
+    border-radius: 2px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+input{
+    background-color: rgb(44, 42, 42);
+    color: bisque;
+    border-radius: 4px;
+    text-align: right;
+}
